@@ -1,6 +1,7 @@
 import { useAccount } from 'wagmi'
 import { WalletConnect } from './components/WalletConnect'
 import { FootprintStamper } from './components/FootprintStamper'
+import { NFTMinter } from './components/NFTMinter'
 
 function App() {
   const { isConnected } = useAccount()
@@ -51,7 +52,10 @@ function App() {
             </p>
           </div>
         ) : (
-          <FootprintStamper />
+          <>
+            <FootprintStamper />
+            <NFTMinter />
+          </>
         )}
       </main>
 

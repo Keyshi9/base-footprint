@@ -1,16 +1,17 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Base DeFi Footprint Generator 🔵
+A minimal web application designed to help users establish an on-chain footprint on the Base network efficiently and affordably.
+## Features
+- 🔗 **Wallet Connection**: Seamless integration with major wallets (MetaMask, Rabby, etc.) via Wagmi.
+- ⚡ **Footprint Stamping**: Execute minimal self-transactions to generate on-chain activity.
+- 🛡️ **Base Native**: Built specifically for the Base Layer 2 ecosystem.
+## Getting Started
+1. **Connect Wallet**: Use the button in the top right to connect your wallet.
+2. **Stamp Footprint**: Click the button to send a 0 ETH transaction to yourself.
+3. **Verify**: Check your transaction on [BaseScan](https://basescan.org/).
+## Tech Stack
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Wagmi](https://wagmi.sh/)
+- [Viem](https://viem.sh/)
+---
+*Built for the Base ecosystem.*
